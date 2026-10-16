@@ -1,0 +1,18 @@
+name: JalebiNametag
+version: '${project.version}'
+main: com.jalebismp.nametag.NametagPlugin
+api-version: '1.21.7'
+description: Hearts, money and username above players' heads with a toggle GUI.
+author: JalebiSMP
+softdepend: [Vault]
+
+commands:
+  nametag:
+    description: Open the nametag settings menu
+    usage: /nametag
+    permission: jalebi.nametag
+
+permissions:
+  jalebi.nametag:
+    description: Allows using /nametag
+    default: true
